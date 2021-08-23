@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>Show User</h1>
+    <h1>ข้อมูล Steak</h1>
     <p>id: {{ userId }}</p>
-    <p>ชื่อ - นามสกุล {{ user.name }} - {{ user.lastname }}</p>
-    <p>email: {{ user.email }}</p>
-    <p>password: {{ user.password }}</p>
+    <p>ระดับความสุก {{ user.name }} - {{ user.lastname }}</p>
+    <p>ช่องทางการติดต่อ email: {{ user.email }}</p>
+    <p>ราคา: {{ user.password }}</p>
   </div>
 </template>
 <script>
